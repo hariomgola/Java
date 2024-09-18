@@ -50,10 +50,6 @@ Portfolio :computer: https://hariomgola.github.io/
 </details>
 
 <details>
-<summary>Optional</summary>
-</details>
-
-<details>
 <summary>Stream API</summary>
 
     # Stream Api
@@ -111,60 +107,4 @@ Portfolio :computer: https://hariomgola.github.io/
     	}
     }
 
-</details>
-
-<details>
-<summary>Static methods in interface</summary>
-</details>
-
-<details>
-<summary>Date Time manipulation</summary>
-</details>
-
-<details>
-<summary>Default methods</summary>
-</details>
-
-<details>
-<summary>forEach</summary>
-</details>
-
-<details>
-<summary>Method reference</summary>
-</details>
-
-<details>
-<summary>Java Time API</summary>
-</details>
-
-<details>
-<summary>Concurrency enhancements</summary>
-</details>
-
-<details>
-<summary>Nashron JavaScript engine</summary>
-</details>
-
-<details>
-<summary>Base64 encode decode</summary>
-</details>
-
-<details>
-<summary>Java tool</summary>
-</details>
-
-<details>
-<summary>Labda expression with collections</summary>
-</details>
-
-<details>
-<summary>Stream filter</summary>
-</details>
-
-<details>
-<summary>Stream.foreach()</summary>
-</details>
-
-<details>
-<summary>StringJoiner</summary>
 </details>
