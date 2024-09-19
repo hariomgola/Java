@@ -7,6 +7,92 @@ Any further Use of these program is criminal offence.
 
 Portfolio :computer: https://hariomgola.github.io/
 
+# Java List and Hash
+
+<details>
+    <summary>List</summary>
+
+    # Array List
+    import java.util.ArrayList;
+    import java.util.Collections;
+    import java.util.List;
+    public class ArrayListFunctionality {
+
+    	public static void main(String[] args) {
+    		List<String> cars = new ArrayList<String>();
+    		cars.add("Suzuki");
+    		cars.add("Tata");
+    		cars.add("Mahindra");
+    		for (int i = 0; i < cars.size(); i++) {
+    			System.out.println(i + " car - " + cars.get(i));
+    		}
+    		Collections.sort(cars);
+    		for (String i : cars) {
+    			System.out.println("car - " + i);
+    		}
+    	}
+    }
+
+    # Linked List
+     - addFirst()
+     - addLast()
+     - removeFirst()
+     - removeLast()
+     - getFirst()
+     - getLast()
+
+</details>
+<details>
+    <summary>Hash</summary>
+    
+    # Hash Map
+    import java.util.HashMap;
+    public class HashMapFunctionality {
+    	public static void main(String[] args) {
+    		HashMap<String, String> users = new HashMap<String, String>();
+    		users.put("one", "Hari");
+    		users.put("two", "Raj");
+    		users.put("three", "Manoj");
+    		System.out.println(" |> " + users);
+    		// accessing
+    		users.get("two");
+    		// Removing
+    		users.remove("three");
+    		// Size
+    		users.size();
+    		// Print
+    		for (String i : users.keySet()) {
+    			System.out.println("Keys " + i);
+    		}
+    		for (String i : users.values()) {
+    			System.out.println("Values " + i);
+    		}
+    	}
+    }
+
+    # Hash Set
+    import java.util.HashSet;
+    public class HashSetFunctionality {
+    	public static void main(String[] args) {
+    		HashSet<String> cars = new HashSet<String>();
+    		cars.add("Suzuki");
+    		cars.add("Tata");
+    		cars.add("Mahindra");
+    		cars.add("BMW");
+    		System.out.println("|> " + cars);
+        // Functionality
+    		cars.contains("BMW");
+    		cars.remove("Tata");
+    		cars.size();
+    		for (String i : cars) {
+    			System.out.println(i);
+    		}
+    		cars.clear();
+    	}
+    }
+
+</details>
+
 # Java 8 Features
 
 <details>
