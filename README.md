@@ -80,8 +80,8 @@ Portfolio :computer: https://hariomgola.github.io/
     		cars.add("Mahindra");
     		cars.add("BMW");
     		System.out.println("|> " + cars);
-        	// functionality
-        	cars.contains("BMW");
+    		// functionality
+    		cars.contains("BMW");
     		cars.remove("Tata");
     		cars.size();
     		for (String i : cars) {
