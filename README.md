@@ -1,7 +1,7 @@
-# Competitive Coding - Java
+# Java
 
 This File contains few example of competitive coding in Java and made for Education purpose only.
-Any further Use of these program is criminal offence.
+Any further Use of these program is Prohibited.
 
 # Made with :heart:
 
