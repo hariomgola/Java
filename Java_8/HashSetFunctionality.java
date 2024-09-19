@@ -11,7 +11,7 @@ public class HashSetFunctionality {
 		cars.add("Mahindra");
 		cars.add("BMW");
 		System.out.println("|> " + cars);
-
+		// functionality
 		cars.contains("BMW");
 		cars.remove("Tata");
 		cars.size();
