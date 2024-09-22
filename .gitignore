@@ -2,3 +2,4 @@
 /.setting/
 *.classpath
 *.project
+*.class
