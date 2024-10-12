@@ -15,21 +15,18 @@ public class longest_common_prefix {
 	}
 
 	public String longestCommonPrefix(String[] strs) {
-		if(strs.length == 1) {
-			return strs[1];
-		}
 		Arrays.sort(strs, (a, b) -> Integer.compare(a.length(), b.length()));
 		String _finalPrefix = "";
 		outerLoop: for (int i = 0; i < strs[0].length(); i++) {
-			innerLoop: for (int j = 0; j < strs.length; j++) {
-
-				if (strs[0].substring(0, i).equals(strs[j].substring(0, i))) {
+			String _currentValue = strs[0].substring(0, i + 1);
+			for (int j = 0; j < strs.length; j++) {
+				if (strs[j].substring(0, i + 1).equals(_currentValue)) {
 					continue;
 				} else {
 					break outerLoop;
 				}
 			}
-			_finalPrefix = strs[0].substring(0, i);
+			_finalPrefix = _currentValue;
 
 		}
 
