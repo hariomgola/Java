@@ -10,7 +10,17 @@ public class remove_dublicate_from_sorted_array {
 	}
 
 	public int removeDuplicates(int[] nums) {
-		return 0;
+		int _iteratorIndex = 0;
+		for (int i = 0; i < nums.length - 1; i++) {
+			if (nums[i] != nums[i + 1]) {
+				nums[_iteratorIndex] = nums[i];
+				_iteratorIndex += 1;
+			}
+		}
+		if (nums[_iteratorIndex] != nums[nums.length - 1]) {
+			nums[_iteratorIndex] = nums[nums.length - 1];
+		}
+		return _iteratorIndex + 1;
 	}
 
 }
