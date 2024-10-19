@@ -1,9 +1,9 @@
 package Java_Leet_Code_Easy;
 
-public class length_of_last_word {
+public class _58_length_of_last_word {
 
 	public static void main(String[] args) {
-		length_of_last_word cs = new length_of_last_word();
+		_58_length_of_last_word cs = new _58_length_of_last_word();
 		cs.lengthOfLastWord("Hello World");
 		cs.lengthOfLastWord("   fly me   to   the moon  ");
 		cs.lengthOfLastWord("luffy is still joyboy");

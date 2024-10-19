@@ -3,10 +3,10 @@ package Java_Leet_Code_Easy;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class plus_one {
+public class _66_plus_one {
 
 	public static void main(String[] args) {
-		plus_one cs = new plus_one();
+		_66_plus_one cs = new _66_plus_one();
 		cs.plusOne(new int[] { 1, 2, 3 });
 		cs.plusOne(new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 });
 		cs.plusOne(new int[] { 7, 2, 8, 5, 0, 9, 1, 2, 9, 5, 3, 6, 6, 7, 3, 2, 8, 4, 3, 7, 9, 5, 7, 7, 4, 7, 4, 9, 4, 7,

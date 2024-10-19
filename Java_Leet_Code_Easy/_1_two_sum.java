@@ -1,11 +1,11 @@
 package Java_Leet_Code_Easy;
 
-public class two_sum {
+public class _1_two_sum {
 
 	public static void main(String[] args) {
 		int[] i1 = { 2, 7, 11, 15 };
 
-		two_sum _ts = new two_sum();
+		_1_two_sum _ts = new _1_two_sum();
 		_ts.twoSum(i1, 9);
 	}
 

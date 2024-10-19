@@ -2,10 +2,10 @@ package Java_Leet_Code_Easy;
 
 import java.util.Stack;
 
-public class valid_parentneses {
+public class _20_valid_parentneses {
 
 	public static void main(String[] args) {
-		valid_parentneses cs = new valid_parentneses();
+		_20_valid_parentneses cs = new _20_valid_parentneses();
 		System.out.println(cs.isValid("()[]{}"));
 		System.out.println(cs.isValid("(])"));
 	}

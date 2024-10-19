@@ -1,9 +1,9 @@
 package Java_Leet_Code_Easy;
 
-public class palindrome_number {
+public class _9_palindrome_number {
 
 	public static void main(String[] args) {
-		palindrome_number pn = new palindrome_number();
+		_9_palindrome_number pn = new _9_palindrome_number();
 		pn.isPalindrome(1213);
 	}
 

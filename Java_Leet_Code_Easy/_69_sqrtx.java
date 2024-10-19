@@ -1,9 +1,9 @@
 package Java_Leet_Code_Easy;
 
-public class sqrtx {
+public class _69_sqrtx {
 
 	public static void main(String[] args) {
-		sqrtx cs = new sqrtx();
+		_69_sqrtx cs = new _69_sqrtx();
 		cs.mySqrt(4);
 		cs.mySqrt(8);
 

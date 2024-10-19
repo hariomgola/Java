@@ -1,9 +1,9 @@
 package Java_Leet_Code_Easy;
 
-public class add_binary {
+public class _67_add_binary {
 
 	public static void main(String[] args) {
-		add_binary cs = new add_binary();
+		_67_add_binary cs = new _67_add_binary();
 		cs.addBinary("11", "1"); // 100
 		cs.addBinary("1000110", "11"); // 1001001
 		cs.addBinary("110", "111"); // 1101

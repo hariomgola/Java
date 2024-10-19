@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class longest_common_prefix {
+public class _14_longest_common_prefix {
 
 	public static void main(String[] args) {
-		longest_common_prefix cs = new longest_common_prefix();
+		_14_longest_common_prefix cs = new _14_longest_common_prefix();
 		cs.longestCommonPrefix(new String[] { "flower", "flow", "flight" });
 		cs.longestCommonPrefix(new String[] { "dog", "racecar", "car" });
 		cs.longestCommonPrefix(new String[] { "a" });

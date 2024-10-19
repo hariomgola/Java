@@ -17,10 +17,10 @@ class ListNode {
 	}
 }
 
-public class merge_two_sorted_list {
+public class _21_merge_two_sorted_list {
 
 	public static void main(String[] args) {
-		merge_two_sorted_list cs = new merge_two_sorted_list();
+		_21_merge_two_sorted_list cs = new _21_merge_two_sorted_list();
 		cs.mergeTwoLists(null, null);
 	}
 

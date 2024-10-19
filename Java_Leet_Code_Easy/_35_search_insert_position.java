@@ -1,9 +1,9 @@
 package Java_Leet_Code_Easy;
 
-public class search_insert_position {
+public class _35_search_insert_position {
 
 	public static void main(String[] args) {
-		search_insert_position cs = new search_insert_position();
+		_35_search_insert_position cs = new _35_search_insert_position();
 		cs.searchInsert(new int[] { 1, 3, 5, 6 }, 2);
 	}
 

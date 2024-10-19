@@ -2,10 +2,10 @@ package Java_Leet_Code_Easy;
 
 import java.util.HashMap;
 
-public class romon_to_integer {
+public class _13_romon_to_integer {
 
 	public static void main(String[] args) {
-		romon_to_integer _ri = new romon_to_integer();
+		_13_romon_to_integer _ri = new _13_romon_to_integer();
 		System.out.println(_ri.romanToInt("MCMXCIV"));
 
 	}
