@@ -1,4 +1,4 @@
-package Java_Question;
+package Java_Question_product;
 
 import java.util.Arrays;
 import java.util.Comparator;
