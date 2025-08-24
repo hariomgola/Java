@@ -9,11 +9,11 @@ interface CalculateSquare {
 	int calculate(int x);
 }
 
-public class Functiona_Interface {
+public class Functional_Interface {
 	public static void main(String[] args) {
 		// before Java 8
 		beforeJavaFunctionalInteface();
-		// Inbuild functional interface
+		// Inbuilt functional interface
 		// consumer
 		// predicate
 		// function

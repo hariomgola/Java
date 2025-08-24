@@ -1,6 +1,6 @@
 package Java_8;
 
-public class logical_code_functionality {
+public class _logicalCode {
 
 	public static void main(String[] args) throws InterruptedException {
 		virtualThreadExample();
