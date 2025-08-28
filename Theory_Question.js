@@ -14,12 +14,4 @@ let QuestionAsked = () => `
 4. What is hashcollision
 - hash collision occurs when the 2 hashcode is equals
 - when a collision occurs, Java stores the colliding entries in a linked list.
-
-Hi Santosh,
-
-I hope you're doing well. Please find below my profile for the Java Full Stack role. I’ve attached my updated resume for your reference.
-
-Looking forward to hearing from you.
-
-Thanks & Regards, Hariom
 `;
