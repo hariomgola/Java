@@ -14,4 +14,8 @@ let QuestionAsked = () => `
 4. What is hashcollision
 - hash collision occurs when the 2 hashcode is equals
 - when a collision occurs, Java stores the colliding entries in a linked list.
+
+5 Serialication
+- The process of converting the object into a bytes to pass over a network is known as serailization
+- Convert the object back from byte to object is known as deserilization
 `;
