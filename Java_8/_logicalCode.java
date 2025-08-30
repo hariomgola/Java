@@ -1,11 +1,13 @@
 package Java_8;
 
+import java.util.Arrays;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.stream.Collectors;
 
 class vehicle {
 	protected String brand = "Maruti";
@@ -87,7 +89,12 @@ public class _logicalCode {
 	}
 
 	public static void streamExample() {
-
+		String data = "testing some randome data";
+		Arrays.stream(data.toLowerCase().split("")).filter(_data -> !_data.equals(" "))
+				.collect(Collectors.toMap(ch -> ch, ch -> 1, (existing, replacement) -> existing + replacement))
+				.entrySet().stream().forEach(_data -> {
+					System.out.println(_data);
+				});
 	}
 
 }
