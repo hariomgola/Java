@@ -32,7 +32,8 @@ public class _logicalCode {
 		// virtualThreadExample();
 		// Thread.sleep(3000);
 		// ------- Thread Example -------
-		threadExample();
+		// threadExample();
+		streamExample();
 	}
 
 	public static void javaAttributeExample() {
@@ -83,6 +84,10 @@ public class _logicalCode {
 		runnableTask.run();
 
 		new Thread(runnableTask).start(); // Execute asynchronously
+	}
+
+	public static void streamExample() {
+
 	}
 
 }

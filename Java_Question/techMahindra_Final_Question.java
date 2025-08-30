@@ -1,4 +1,4 @@
-package Java_8;
+package Java_Question;
 
 public class techMahindra_Final_Question {
 	static final String lock1 = "LockA";
